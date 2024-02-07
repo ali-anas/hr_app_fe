@@ -1,0 +1,511 @@
+.syntax-light {
+    --base00: var(--override-base00,#fff);
+    --base01: var(--override-base01,#eaeaeb);
+    --base02: var(--override-base02,#dbdbdc);
+    --base03: var(--override-base03,#a0a1a7);
+    --base04: var(--override-base04,#232324);
+    --base05: var(--override-base05,#232324);
+    --base06: var(--override-base06,#8c98a2);
+    --base07: var(--override-base07,#fff);
+    --base08: var(--override-base08,#0184bc);
+    --base09: var(--override-base09,#986801);
+    --base0A: var(--override-base0A,#4078f2);
+    --base0B: var(--override-base0B,#50a14e);
+    --base0C: var(--override-base0C,#383a42);
+    --base0D: var(--override-base0D,#4078f2);
+    --base0E: var(--override-base0E,#a626a4);
+    --base0F: var(--override-base0F,#dbdbdc);
+    --base0G: var(--override-base0G,#f7f9fc);
+    --highlight-background: var(--override-base0G,#d4ebff);
+    --highlight-border: var(--override-base0C,#69b9ff);
+    --prompt-text: var(--override-base07,#0069e6);
+    --cursor-text: var(--override-base00,#24292f);
+    --border: var(--override-base00,#eaeef2);
+}
+
+
+.InteractiveCodeExample_Code__1hCWW {
+    color: var(--base05)
+}
+
+.InteractiveCodeExample_Code__1hCWW ::-moz-selection {
+    background: var(--base02)
+}
+
+.InteractiveCodeExample_Code__1hCWW ::selection {
+    background: var(--base02)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-comment {
+    color: var(--base03)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-tag {
+    color: var(--base04)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-operator,.InteractiveCodeExample_Code__1hCWW .hljs-punctuation,.InteractiveCodeExample_Code__1hCWW .hljs-subst {
+    color: var(--base05)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-operator {
+    opacity: .7
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-bullet,.InteractiveCodeExample_Code__1hCWW .hljs-deletion,.InteractiveCodeExample_Code__1hCWW .hljs-name,.InteractiveCodeExample_Code__1hCWW .hljs-selector-tag,.InteractiveCodeExample_Code__1hCWW .hljs-template-variable,.InteractiveCodeExample_Code__1hCWW .hljs-variable {
+    color: var(--base08)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-attr,.InteractiveCodeExample_Code__1hCWW .hljs-link,.InteractiveCodeExample_Code__1hCWW .hljs-literal,.InteractiveCodeExample_Code__1hCWW .hljs-number,.InteractiveCodeExample_Code__1hCWW .hljs-symbol,.InteractiveCodeExample_Code__1hCWW .hljs-variable.constant_ {
+    color: var(--base09)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-class .hljs-title,.InteractiveCodeExample_Code__1hCWW .hljs-title,.InteractiveCodeExample_Code__1hCWW .hljs-title.class_ {
+    color: var(--base0A)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-strong {
+    font-weight: 700;
+    color: var(--base0A)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-addition,.InteractiveCodeExample_Code__1hCWW .hljs-code,.InteractiveCodeExample_Code__1hCWW .hljs-string,.InteractiveCodeExample_Code__1hCWW .hljs-title.class_.inherited__ {
+    color: var(--base0B)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-built_in,.InteractiveCodeExample_Code__1hCWW .hljs-doctag .InteractiveCodeExample_Code__1hCWW .hljs-quote,.InteractiveCodeExample_Code__1hCWW .hljs-keyword.hljs-atrule,.InteractiveCodeExample_Code__1hCWW .hljs-regexp {
+    color: var(--base0C)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-attribute,.InteractiveCodeExample_Code__1hCWW .hljs-function .hljs-title,.InteractiveCodeExample_Code__1hCWW .hljs-section,.InteractiveCodeExample_Code__1hCWW .hljs-title.function_,.InteractiveCodeExample_Code__1hCWW .ruby .hljs-property {
+    color: var(--base0D)
+}
+
+.InteractiveCodeExample_Code__1hCWW .diff .hljs-meta,.InteractiveCodeExample_Code__1hCWW .hljs-keyword,.InteractiveCodeExample_Code__1hCWW .hljs-template-tag,.InteractiveCodeExample_Code__1hCWW .hljs-type {
+    color: var(--base0E)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-emphasis {
+    color: var(--base0E);
+    font-style: italic
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-meta,.InteractiveCodeExample_Code__1hCWW .hljs-meta .hljs-keyword,.InteractiveCodeExample_Code__1hCWW .hljs-meta .hljs-string {
+    color: var(--base0F)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-meta-keyword,.InteractiveCodeExample_Code__1hCWW .hljs-meta .hljs-keyword {
+    font-weight: 700
+}
+
+@-webkit-keyframes InteractiveCodeExample_slideIn__10smk {
+    0% {
+        transform: translateY(.3em);
+        opacity: 0
+    }
+
+    to {
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes InteractiveCodeExample_slideIn__10smk {
+    0% {
+        transform: translateY(.3em);
+        opacity: 0
+    }
+
+    to {
+        transform: none;
+        opacity: 1
+    }
+}
+
+.InteractiveCodeExample_Code__1hCWW .type--generated {
+    display: inline-block;
+    color: var(--base06);
+    opacity: 1;
+    -webkit-animation: InteractiveCodeExample_slideIn__10smk .2s ease-out;
+    animation: InteractiveCodeExample_slideIn__10smk .2s ease-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+.InteractiveCodeExample_Code__1hCWW .code-snippet,.InteractiveCodeExample_Code__1hCWW .code-snippet--empty {
+    position: relative
+}
+
+.InteractiveCodeExample_Code__1hCWW .code-snippet:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1
+}
+
+.InteractiveCodeExample_Code__1hCWW .type--ghost:not(.code-snippet--empty):before {
+    background: var(--highlight-background);
+    content: "";
+    position: absolute;
+    top: -.3em;
+    bottom: -.2em;
+    left: -2px;
+    right: 0;
+    z-index: -1
+}
+
+.InteractiveCodeExample_Code__1hCWW .type--ghost:after {
+    background: var(--highlight-border);
+    content: "";
+    position: absolute;
+    top: -.3em;
+    bottom: -.2em;
+    left: -2px;
+    width: 2px;
+    z-index: 1
+}
+
+.InteractiveCodeExample_FinishedCode__1BNaK .code-snippet--empty.type--ghost:last-of-type:after {
+    display: none
+}
+
+@-webkit-keyframes InteractiveCodeExample_blink__jxhZI {
+    0% {
+        opacity: 1
+    }
+
+    45% {
+        opacity: 1
+    }
+
+    55% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes InteractiveCodeExample_blink__jxhZI {
+    0% {
+        opacity: 1
+    }
+
+    45% {
+        opacity: 1
+    }
+
+    55% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+.InteractiveCodeExample_cursor__2OKFQ {
+    position: absolute;
+    height: 1.3em;
+    width: 1.3px;
+    margin-top: .1em;
+    margin-left: -2px;
+    z-index: 10000000
+}
+
+.InteractiveCodeExample_cursorBlinking__27rTy {
+    -webkit-animation: InteractiveCodeExample_blink__jxhZI 1.2s linear infinite;
+    animation: InteractiveCodeExample_blink__jxhZI 1.2s linear infinite
+}
+
+
+
+
+/* =====================dark ================ */
+:root {
+    --animate-duration: 400ms;
+    --animate-delay: 400ms;
+    --animate-repeat: 1;
+    --base00: #232a2f;
+    --base01: #444267;
+    --base02: #32374d;
+    --base03: #707a84;
+    --base04: #8796b0;
+    --base05: #939da5;
+    --base06: #939da5;
+    --base07: #fff;
+    --base08: #ff6a80;
+    --base09: #ffa763;
+    --base0A: #ffea6b;
+    --base0B: #5bec95;
+    --base0C: #89ddff;
+    --base0D: #82aaff;
+    --base0E: #ba8ef7;
+    --base0F: #ff8ad1;
+    --base0G: #1a2023;
+}
+
+
+.syntax-dark {
+    --base00: var(--override-base00,#232a2f);
+    --base01: var(--override-base01,#444267);
+    --base02: var(--override-base02,#32374d);
+    --base03: var(--override-base03,#707a84);
+    --base04: var(--override-base04,#8796b0);
+    --base05: var(--override-base05,#939da5);
+    --base06: var(--override-base06,#535d75);
+    --base07: var(--override-base07,#fff);
+    --base08: var(--override-base08,#ff6a80);
+    --base09: var(--override-base09,#ffa763);
+    --base0A: var(--override-base0A,#ffea6b);
+    --base0B: var(--override-base0B,#5bec95);
+    --base0C: var(--override-base0C,#89ddff);
+    --base0D: var(--override-base0D,#82aaff);
+    --base0E: var(--override-base0E,#ba8ef7);
+    --base0F: var(--override-base0F,#ff8ad1);
+    --base0G: var(--override-base0G,#1a2023);
+    --highlight-background: var(--override-base0G,#204062);
+    --highlight-border: var(--override-base0C,#69b9ff);
+    --prompt-text: var(--override-base07,#0069e6);
+    --cursor-text: var(--override-base00,#24292f);
+    --border: var(--override-base00,rgba(0,0,0,0.6));
+}
+
+
+.InteractiveCodeExample_Code__1hCWW {
+    color: var(--base05) #939da5;
+}
+
+.InteractiveCodeExample_Code__1hCWW ::-moz-selection {
+    background: var(--base02) #32374d;
+}
+
+.InteractiveCodeExample_Code__1hCWW ::selection {
+    background: var(--base02) #32374d;
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-comment {
+    color: var(--base03) 
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-tag {
+    color: var(--base04)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-operator,.InteractiveCodeExample_Code__1hCWW .hljs-punctuation,.InteractiveCodeExample_Code__1hCWW .hljs-subst {
+    color: var(--base05)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-operator {
+    opacity: .7
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-bullet,.InteractiveCodeExample_Code__1hCWW .hljs-deletion,.InteractiveCodeExample_Code__1hCWW .hljs-name,.InteractiveCodeExample_Code__1hCWW .hljs-selector-tag,.InteractiveCodeExample_Code__1hCWW .hljs-template-variable,.InteractiveCodeExample_Code__1hCWW .hljs-variable {
+    color: var(--base08)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-attr,.InteractiveCodeExample_Code__1hCWW .hljs-link,.InteractiveCodeExample_Code__1hCWW .hljs-literal,.InteractiveCodeExample_Code__1hCWW .hljs-number,.InteractiveCodeExample_Code__1hCWW .hljs-symbol,.InteractiveCodeExample_Code__1hCWW .hljs-variable.constant_ {
+    color: var(--base09)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-class .hljs-title,.InteractiveCodeExample_Code__1hCWW .hljs-title,.InteractiveCodeExample_Code__1hCWW .hljs-title.class_ {
+    color: var(--base0A)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-strong {
+    font-weight: 700;
+    color: var(--base0A)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-addition,.InteractiveCodeExample_Code__1hCWW .hljs-code,.InteractiveCodeExample_Code__1hCWW .hljs-string,.InteractiveCodeExample_Code__1hCWW .hljs-title.class_.inherited__ {
+    color: var(--base0B)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-built_in,.InteractiveCodeExample_Code__1hCWW .hljs-doctag .InteractiveCodeExample_Code__1hCWW .hljs-quote,.InteractiveCodeExample_Code__1hCWW .hljs-keyword.hljs-atrule,.InteractiveCodeExample_Code__1hCWW .hljs-regexp {
+    color: var(--base0C)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-attribute,.InteractiveCodeExample_Code__1hCWW .hljs-function .hljs-title,.InteractiveCodeExample_Code__1hCWW .hljs-section,.InteractiveCodeExample_Code__1hCWW .hljs-title.function_,.InteractiveCodeExample_Code__1hCWW .ruby .hljs-property {
+    color: var(--base0D)
+}
+
+.InteractiveCodeExample_Code__1hCWW .diff .hljs-meta,.InteractiveCodeExample_Code__1hCWW .hljs-keyword,.InteractiveCodeExample_Code__1hCWW .hljs-template-tag,.InteractiveCodeExample_Code__1hCWW .hljs-type {
+    color: var(--base0E)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-emphasis {
+    color: var(--base0E);
+    font-style: italic
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-meta,.InteractiveCodeExample_Code__1hCWW .hljs-meta .hljs-keyword,.InteractiveCodeExample_Code__1hCWW .hljs-meta .hljs-string {
+    color: var(--base0F)
+}
+
+.InteractiveCodeExample_Code__1hCWW .hljs-meta-keyword,.InteractiveCodeExample_Code__1hCWW .hljs-meta .hljs-keyword {
+    font-weight: 700
+}
+
+@-webkit-keyframes InteractiveCodeExample_slideIn__10smk {
+    0% {
+        transform: translateY(.3em);
+        opacity: 0
+    }
+
+    to {
+        transform: none;
+        opacity: 1
+    }
+}
+
+@keyframes InteractiveCodeExample_slideIn__10smk {
+    0% {
+        transform: translateY(.3em);
+        opacity: 0
+    }
+
+    to {
+        transform: none;
+        opacity: 1
+    }
+}
+
+.InteractiveCodeExample_Code__1hCWW .type--generated {
+    display: inline-block;
+    color: var(--base06);
+    opacity: 1;
+    -webkit-animation: InteractiveCodeExample_slideIn__10smk .2s ease-out;
+    animation: InteractiveCodeExample_slideIn__10smk .2s ease-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+.InteractiveCodeExample_Code__1hCWW .code-snippet,.InteractiveCodeExample_Code__1hCWW .code-snippet--empty {
+    position: relative
+}
+
+.InteractiveCodeExample_Code__1hCWW .code-snippet:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1
+}
+
+.InteractiveCodeExample_Code__1hCWW .type--ghost:not(.code-snippet--empty):before {
+    background: var(--highlight-background);
+    content: "";
+    position: absolute;
+    top: -.3em;
+    bottom: -.2em;
+    left: -2px;
+    right: 0;
+    z-index: -1
+}
+
+.InteractiveCodeExample_Code__1hCWW .type--ghost:after {
+    background: var(--highlight-border);
+    content: "";
+    position: absolute;
+    top: -.3em;
+    bottom: -.2em;
+    left: -2px;
+    width: 2px;
+    z-index: 1
+}
+
+.InteractiveCodeExample_FinishedCode__1BNaK .code-snippet--empty.type--ghost:last-of-type:after {
+    display: none
+}
+
+@-webkit-keyframes InteractiveCodeExample_blink__jxhZI {
+    0% {
+        opacity: 1
+    }
+
+    45% {
+        opacity: 1
+    }
+
+    55% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes InteractiveCodeExample_blink__jxhZI {
+    0% {
+        opacity: 1
+    }
+
+    45% {
+        opacity: 1
+    }
+
+    55% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+.InteractiveCodeExample_cursor__2OKFQ {
+    position: absolute;
+    height: 1.3em;
+    width: 1.3px;
+    margin-top: .1em;
+    margin-left: -2px;
+    z-index: 10000000
+}
+
+.InteractiveCodeExample_cursorBlinking__27rTy {
+    -webkit-animation: InteractiveCodeExample_blink__jxhZI 1.2s linear infinite;
+    animation: InteractiveCodeExample_blink__jxhZI 1.2s linear infinite
+}
+
+
+
+
+
+
+
+
+
+
+/* text-hljs-foreground: #232324
+.themed-border: {
+    border-color: #eaeef2;
+}
+
+Done .text-hljs-foreground-light {
+    color: var(--base06);
+}
+
+Done .bg-hljs-offset {
+    background-color: var(--base0G);
+}
+
+Done .bg-hljs-background {
+    background-color: var(--base00);
+}
+
+.border-hljs-background {
+    border-color: var(--base00);
+} */
+
+
+/* --font-family: "Wotfard",Futura,-apple-system,sans-serif;
+--font-family-mono: "League Mono","Fira Mono",monospace;
+--font-family-spicy: "Sriracha","Wotfard",Futura,-apple-system,sans-serif;
+--reach-d */
