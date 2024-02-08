@@ -1,6 +1,6 @@
 export async function getAllCandidates(req, res) {
   try {
-    const response = await fetch('http://localhost:8080/api/candidates');
+    const response = await fetch(`${process.env.apiUrl}/api/candidates`);
     const data = await response.json();
     return data;
   } catch (error) {

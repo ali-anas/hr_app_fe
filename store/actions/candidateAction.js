@@ -20,7 +20,7 @@ export const getCandidatesData = () => async (dispatch) => {
 export const updateCandidate = (data) => async (dispatch) => {
   dispatch({ type: CANDIDATE_UPDATE_REQUEST });
   try{
-    const response = await fetch(`http://localhost:8080/api/candidates`,{
+    const response = await fetch(`${process.env.apiUrl}/api/candidates`,{
         method: 'PUT',
           headers: {
             'Content-Type': 'application/json',

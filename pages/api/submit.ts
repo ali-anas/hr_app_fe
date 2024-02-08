@@ -8,11 +8,11 @@ export default async function handler(req, res) {
 
       const skills = [{
             "skill_id": 1,
-            "experience": formData['nodejs_exp'],
+            "experience": parseInt(formData['nodejs_exp']),
         },
         {
             "skill_id": 2,
-            "experience": formData['reactjs_exp'],
+            "experience": parseInt(formData['reactjs_exp']),
         }
       ]
       //  name, email, expected_salary, mobile, status, skills
@@ -21,10 +21,11 @@ export default async function handler(req, res) {
         "mobile": formData['mobile'],
         "email": formData['email'],
         "status": formData['status'],
-        "skills": skills
+        "skills": skills,
+        "expected_salary": parseInt(formData['expected_salary']),
       }
 
-      fetch('http://localhost:8080/api/candidates/create',{
+      fetch(`${process.env.apiUrl}/api/candidates/create`,{
       method: 'POST',
         headers: {
           'Content-Type': 'application/json',

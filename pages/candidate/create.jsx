@@ -199,10 +199,9 @@ function CandidateForm(props) {
 export default function CreateCandidate() {
   const router = useRouter();
   const onFormSubmit = async (values) => {
-    console.log('log: ', 'val: ', JSON.stringify(values));
     try {
       // Make a POST request using fetch or any HTTP client library
-      const response = await fetch('/api/submit', {
+      const response = await fetch(`/api/submit`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
